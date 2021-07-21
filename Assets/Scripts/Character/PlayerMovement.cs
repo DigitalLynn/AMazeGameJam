@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
 
     private float horizontalMove = 0f;
     private bool jump = false;
-    private bool crouch = false;
 
     // Update is called once per frame
     void Update()
@@ -25,20 +24,6 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("Jump", true);
         }
-
-        if (Input.GetButtonDown("Crouch"))
-        {
-            crouch = true;
-        }
-        else if (Input.GetButtonUp("Crouch"))
-        {
-            crouch = false;
-        }
-    }
-
-    public void OnCrouch(bool isCrouching)
-    {
-        animator.SetBool("Crouch", isCrouching);
     }
 
     public void OnLanding()
@@ -48,7 +33,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
 }
