@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4586287787094404503}
   - component: {fileID: 4253913050138181153}
   - component: {fileID: 1402207454516246124}
+  - component: {fileID: 4058809403718793359}
   m_Layer: 5
   m_Name: SroomButton
   m_TagString: Untagged
@@ -119,3 +120,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4058809403718793359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670504269417111084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f67332f2b49bffc428c6d3897ca968ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 5459747529103105557, guid: 4510b05318cc7c3488cf0fd6fff57e30, type: 3}

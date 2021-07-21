@@ -24,6 +24,7 @@ public class DropItem : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
+            child.GetComponent<Spawn>().SpawnDroppedItem();
             GameObject.Destroy(child.gameObject);
         }
     }

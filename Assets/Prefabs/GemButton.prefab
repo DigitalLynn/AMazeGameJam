@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3503622879868419500}
   - component: {fileID: 4430275475224235154}
   - component: {fileID: 4574285672544746315}
+  - component: {fileID: 4410375606517227450}
   m_Layer: 5
   m_Name: GemButton
   m_TagString: Untagged
@@ -119,3 +120,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4410375606517227450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216219800782928774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f67332f2b49bffc428c6d3897ca968ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8870932229171961441, guid: 87ba1ce68c85cb34986f2eff4c571e63, type: 3}
