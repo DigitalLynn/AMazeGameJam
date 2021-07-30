@@ -1,2 +1,5 @@
-# AMazeGameJam
-AMaze Museum Game Jam - Alien Dungeon team
+This is the final version made by:
+ - Henry (Australia)
+ - Nic (Germany)
+ - Wren (Argentina)
+ - Anna (Hungary)
